@@ -30,7 +30,7 @@ In addition, your final script should both print the analysis to the terminal an
 
 
 
-                                                            PyPoll
+                                                       PyPoll
 
 
 
