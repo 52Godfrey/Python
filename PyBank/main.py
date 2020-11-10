@@ -58,11 +58,11 @@ with open(csvpath, "r") as csvfile:
 
 
 with open('Analysis.txt', 'w') as text:
-    text.write("-"*64)
-    text.write("Financial Anlysis")
-    text.write("-"*64)
-    text.write(f"Total Months: {count_months}")
-    text.write(f"Total: ${total_profitloss}")
-    text.write(f"Average Change: $ round(int(avg_profitloss))")
-    text.write(f"Greatest Increase in Profits: {best_month} ${highest_change}")
-    text.write(f"Greatest Decrease in Losses: {worst_month} ${lowest_change}")
+    text.write("----------------------------------------------\n")
+    text.write("Financial Anlysis\n")
+    text.write("----------------------------------------------\n")
+    text.write(f"Total Months: {count_months}\n")
+    text.write(f"Total: ${total_profitloss}\n")
+    text.write(f"Average Change: $ round(int(avg_profitloss))\n")
+    text.write(f"Greatest Increase in Profits: {best_month} ${highest_change}\n")
+    text.write(f"Greatest Decrease in Losses: {worst_month} ${lowest_change}\n")
