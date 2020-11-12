@@ -52,7 +52,7 @@ with open(csvpath, "r") as csvfile:
     print("-"*64)
     print(f"Total Months: {count_months}")
     print(f"Total: ${total_profitloss}")
-    print(f"Average Change: $", round(int(avg_profitloss)))
+    print(f"Average Change: $", str(round(int(avg_profitloss))))
     print(f"Greatest Increase in Profits: {best_month} ${highest_change}")
     print(f"Greatest Decrease in Losses: {worst_month} ${lowest_change}")
 
